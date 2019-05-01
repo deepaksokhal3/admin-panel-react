@@ -1,0 +1,35 @@
+{
+    "fields" : {
+        "username"        : "Имя пользователя:",
+        "password"        : "Пароль:",
+        "email"           : "Email:",
+        "address"         : "Адрес:",
+        "firstName"       : "Имя:",
+        "secondName"      : "Фамилия:",
+        "phone"           : "Телефон:",
+        "tin"             : "ИНН:",
+        "document"        : "Документ:",
+        "description"     : "Описание:",
+        "name"            : "Название:",
+        "city"            :"Город",
+        "capacity"        : " ",
+        "carModel"        : "Марка авто:",
+        "carNumber"       : "Номер авто:",
+        "cost"            : " ",
+        "confirmPassword" : "Подтверждение пароля:"
+    },
+
+    "errors" : {
+        "REQUIRED" : "обязательное поле",
+        "IS_EXIST" : "уже существует",
+        "FIELDS_NOT_EQUAL" : "поля не равны",
+        "NOT_VALID" : "не валидное поле",
+        "NOT_UNIQUE" : "не уникальное поле",
+        "WRONG_EMAIL" : "не валидное поле",
+        "TOO_LONG" : "превышена длина строки",
+        "TOO_SHORT" : "короткая строка",
+        "TOO_HIGH": "большое значение",
+        "NOT_POSITIVE_INTEGER" : "Должно быть больше 0",
+        "NOT_VALID_PASSWORD" : "не валидный"
+    }
+}

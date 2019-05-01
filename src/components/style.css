@@ -1,0 +1,188 @@
+.Avatar{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.avatarImg {
+    display: block;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgHint{
+    font-size: 8px;
+    font-weight: 100;
+    font-style: italic;
+    color: #000000ab;
+}
+
+.TelegramButton{
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    background: #27A5E7;
+    -webkit-box-shadow: 1px 1px 5px #27A5E7;
+    box-shadow: 1px 1px 5px #27A5E7;
+    color: #ffffff;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.ViberButton{
+    background: #665cac;
+    color: #ffffff;
+    font-size: 13px;
+    border-radius: 50%;
+    line-height: 32px;
+    width: 32px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 2px;
+}
+
+.SocialBlock{
+    display: flex;
+}
+
+.avatarStatus {
+    position: relative;
+    left: -6px;
+}
+
+.avatarStatus-ok{
+    color: green;
+}
+.avatarStatus-no{
+    color: #fd7e14;
+}
+
+.AvatarWrapper{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Counter__button-circle {
+    background: #8d80e385;
+    border-radius: 50%;
+}
+
+.CounterWrapper{
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.UploadImg__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+    width: 160px;
+    background: transparent;
+    margin-right: 20px;
+}
+
+.file_upload{
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;   
+    height: 2em;      
+    line-height: 2em;
+    margin-top: 10px;
+}
+.file_upload > button{
+    float: right;
+    width: 100%;           
+    height: 100%;
+}
+.file_upload > div{
+    padding-left: 1em;
+    display: none;
+}
+
+.file_upload input[type=file]{
+    position: absolute;
+    left: 0;
+    top: -20px;
+    width: 100%;
+    height: 80px;
+    letter-spacing: 10em;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file_upload{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.1s linear;
+}
+
+.file_upload > button{
+    background: rgb(0, 188, 212);
+    transition: background 0.2s;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-radius: 2px;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.file_upload:hover > button{
+    background: #6ed0e6;
+}
+.file_upload:active > button{
+    background: rgb(3, 106, 119);
+}
+
+.DocumentBlockWrapper{
+    overflow: hidden;
+    padding: 5px;
+    text-overflow: ellipsis;
+    width: 240px;
+}
+
+.UploadError{
+    color     : red;
+    font-size : 12px;
+    bottom    : 15px;
+}
+
+.ImgWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.remove_btn{
+    opacity: 0.1;
+    top: 6px;
+    right: 6px;
+}
+.remove_btn button{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.remove_btn:hover {
+    opacity: 1 !important;
+}

@@ -1,0 +1,35 @@
+{
+    "rulesForUsers" : {
+        "firstName"  : ["required", { "length_between": [2, 15] }, "userName" ],
+        "secondName" : ["required", { "length_between": [2, 15] }, "userName" ],
+        "phone"      : [ "required", "phone" ],
+        "email"      : [ "required", "email" ],
+        "address"    : "required",
+        "carNumber"  : ["required", { "max_length": 40 } ],
+        "carModel"   : ["required", { "max_length": 40 } ],
+        "tin"        : [ "required", { "or": [ { "length_equal": 10 }, { "length_equal": 12 } ] }, "positive_integer" ]
+    },
+    "rulesForProducts" : {
+        "description": ["required", { "max_length": 250 } ],
+        "capacity"   : [ "required", "positive_integer", { "max_number": 100000 } ],
+        "name"       : ["required", { "length_between": [2, 30] } ],
+        "cost"       : [ "required", "positive_integer",{ "max_number": 1000000 }  ] 
+    },
+    "rulesForProviders": {
+        "name"       : ["required", { "length_between": [2, 50] } ],
+        "phone"      : [ "required", "phone" ],
+        "address"    : ["required", { "max_length": 100 } ],
+        "email"      : [ "required", "email" ]
+    },
+    "rulesForAdmin": {
+        "firstName"  : ["required", { "length_between": [2, 15] }, "userName" ],
+        "secondName" : ["required", { "length_between": [2, 15] }, "userName" ],
+        "phone"      : [ "required", "phone" ],
+        "email"      : [ "required", "email" ]
+    },
+    "rulesForResetPassword": {
+        "password"        : ["required", { "max_length": 20 } ],
+        "confirmPassword" : ["required", { "equal_to_field": "password" } ],
+        "id"              : "required"
+    }
+}

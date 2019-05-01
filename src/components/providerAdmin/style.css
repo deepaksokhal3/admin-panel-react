@@ -1,0 +1,20 @@
+.AdminCreateForm{
+    padding: 6px;
+}
+.AdminCreateForm__firstBlock{
+    display: flex;
+    align-items: center;
+}
+
+.AdminCreateForm__secondBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 650px;
+}
+
+.AdminCreateForm__firstBlock-inputs{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+}

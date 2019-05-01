@@ -1,0 +1,270 @@
+.providerList-item__div-image {
+    position: relative;
+    text-align: center;
+    min-height: 100px;
+    margin: 5px;
+}
+
+.providerList-item__image{
+    max-height: 100px;
+    max-width: 100px;
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
+    object-fit: contain;
+}
+.providerList-item__image-block{
+   -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    min-width: 100px;
+
+}
+
+.ProviderForm__mapWrapper{
+    height: 400px;
+    width: 60%;
+}
+
+.ProviderForm__mapWrapper_geo{
+    height: 90%;
+    width: 80%;
+    display: block;
+    margin-right: 50px;
+}
+
+.Slider{
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider_Wraper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show_Radius{
+    display: flex;
+    flex-direction: row;
+}
+
+.minMax{
+    display: flex;
+    margin: 0px 8px;
+}
+
+.imgWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.marker_Container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.ProviderForm__wrapper{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.ProviderForm__wrapper_geo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.Add_Delete_Buttons{
+    margin-left: 10px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60%;
+    justify-content: space-around;
+}
+
+
+.errorStyle{
+    display: block;
+    margin-bottom: 20px;
+    color: #ff050596;
+    margin-top: 10px;
+    text-align: center;
+    font: caption;
+}
+
+.helperText{
+    display: block;
+    color: black;
+    text-align: center;
+    font: caption;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.sliderText{
+    display: flex;
+    color: black;
+    text-align: center;
+}
+
+.add_DellText{
+    display: block;
+    margin: 10px;
+    color: black;
+    text-align: center;
+}
+
+.settingsControlsBlock{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.settingsPanel{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    height: 100%;
+    justify-content: space-between
+}
+
+.provider__buttonContainer_geo{
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+}
+
+.provider__buttonContainer{
+    width: 10%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ProviderForm__inputs{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 0 20px;
+    justify-content: space-between;
+    height: 300px;
+}
+.ProviderForm__inputs-small{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.ProviderForm__inputs-new{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.ProviderForm__phone{
+    margin-right: 20px;
+}
+
+
+.ProviderInput___address{
+    width: 700px;
+}
+
+.clipboardBlock{
+    display: flex;
+    align-items: center;
+}
+
+.idLabelValue{
+    background-color: #9e9e9e59;
+    cursor: pointer;
+    display: -ms-inline-flexbox;
+    -ms-flex-align: end;
+    margin-left: 20px;
+    padding: 6px;
+}
+
+.allDoneIcon{
+    color:#1aaa20ab !important;
+}
+
+.ProviderFrom_new{
+    display: inline
+}
+
+.Provider__serchBlock{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+    .ProviderForm__inputs-small{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    .ProviderForm__inputs-new{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    .ProviderForm__mapWrapper{
+        width: 500px;
+        padding: 20px 0;
+        height: 400px;
+    }
+    .ProviderForm__inputs{
+        display: flex;
+        padding: 0;
+        height: 550px;
+    }
+    .ProviderUpdate--title{
+        font-size: 18px;
+    }
+    .provider__buttonContainer{
+        display: block;
+        margin: auto;
+        width: 20%
+    }
+    .Provider__serchBlock{
+        margin-top: 20px
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .ProviderForm__wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: auto;
+    }
+}

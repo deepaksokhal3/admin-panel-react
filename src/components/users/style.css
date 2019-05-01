@@ -1,0 +1,40 @@
+.UserCreateForm__wrapper{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 40px;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.UserCreateForm__firsRow{
+    display: flex;
+}
+
+.UserCreateForm__names{
+    display: flex;
+    width: 590px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.UserCreateForm__carInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 840px;
+}
+.UserCreateForm__secondRow{
+    display: flex;
+    max-width: 840px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.ResetPassBlock{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 540px;
+}

@@ -1,0 +1,8 @@
+image: node:8
+
+lint:
+  stage: test
+  script:
+    - npm install
+    - cp src/etc/config.json.sample src/etc/config.json
+    - npm run lint

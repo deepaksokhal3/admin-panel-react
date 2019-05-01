@@ -1,0 +1,255 @@
+.userInformation__wraper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 20px;
+}
+
+.userInformation__title{
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.headerMenu{
+    margin-top: 35px;
+}
+
+.userInformation__infoBlock{
+    display: flex;
+    padding-left: 24px;
+    padding-top: 8px;
+}
+
+.userInformation__infoBlock-name{
+    width: 150px;
+    color: #666;
+}
+
+.coin{
+    width: 200px;
+}
+
+.coinsInfoBlock {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.coinsWrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+.userInformation__infoBlock-value{
+    color: #333;
+    max-width: 240px;
+    max-height: 80px;
+
+    overflow-y: auto;
+}
+
+.orderCreate__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px; 
+    height: 746px;
+}
+
+.userInformation__infoBlock-value::-webkit-scrollbar{
+    width: 3px;
+    border-radius: 2px;
+}
+
+.createOrder__serchBlock{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.userInformation__infoBlock-value::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+.userInfirmation__midle-wrapper{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+
+.errorStyle{
+    display: flex;
+    align-items: center;
+    color: #ff050596;
+    font-style: italic;
+    justify-content: center;
+}
+
+.userInformation__infoBlock-value::-webkit-scrollbar-thumb{
+    width: 6px;
+    height: 26px;
+    border-radius: 2px;
+    background-color: rgba(56, 53, 53,  0.53);
+}
+
+.userInformation__label-notification {
+    font-weight: 100;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.23);
+}
+
+
+.userInformation__map {
+    width: 400px;
+    height: 320px;
+}
+
+.ClientInformation{
+    margin-bottom: 10px;
+}
+
+.orderBody__buttonContainer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.createOrder__mapWrapper{
+    height: 100%;
+    width: 50%;
+}
+
+.orderCreate__submitForm{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userInformation__totalPrice{
+    float: right;
+    margin: 10px 18px 0 0;
+}
+
+.OrderReport__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.OrderReport__dates{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+    min-width: 700px;
+}
+
+.OrderReport__button, .OrderReport__error_msg{
+    display: flex;
+    align-items: center;
+}
+
+.OrderReport__msg, .OrderReport__msg_error{
+    margin-top: 20px;
+}
+
+.OrderReport__msg_error{
+    color: red;
+}
+
+@media screen and (max-width: 770px) {
+    .userInformation__title{
+        font-size: 12px;
+    }
+    .userInformation__infoBlock-name{
+        width: 80px;
+        font-size: 10px;
+    }
+    .userInformation__infoBlock-value{
+        font-size: 11px;
+    }
+
+    .userInformation__map{
+        width: 380px;
+    }
+
+    /* .orderCreate__submitForm{
+        width: 600px;
+    }
+
+    .createOrder__mapWrapper{
+        width: 600px;
+        height: 250px;
+    }
+    .orderCreate__wrapper {
+        flex-direction: column;
+        align-items: center;
+    } */
+  }
+
+
+@media screen and (max-width: 1300px) {
+    .userInformation__title{
+        font-size: 13px;
+    }
+    .userInformation__infoBlock-name{
+        width: 80px;
+        font-size: 11px;
+    }
+    .userInformation__infoBlock-value{
+        font-size: 12px;
+    }
+
+    .userInformation__map{
+        width: 380px;
+    }
+
+    .createOrder__mapWrapper{
+        width: 40%;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 1270px) {
+    .orderCreate__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .createOrder__mapWrapper{
+        width: 600px;
+        padding: 20px 0;
+        height: 200px;
+    }
+    .orderCreate__submitForm{
+        width: 600px;
+    }
+
+  }
+
+  @media screen and (max-width: 1790px) and (min-width: 1610px) {
+    .orderCreate__submitForm{
+        width: 45%;
+    }
+
+    .createOrder__mapWrapper{
+        width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 1610px) and (min-width: 1300px) {
+    .orderCreate__submitForm{
+        width: 45%;
+    }
+
+    .createOrder__mapWrapper{
+        width: 50%;
+    }
+  }

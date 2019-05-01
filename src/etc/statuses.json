@@ -1,0 +1,9 @@
+{
+    "statuses" : {
+        "IN_PROGRESS"         : "Выполняется",
+        "CANCELLED"           : "Отменен",
+        "PENDING"             : "В ожидании",
+        "WAITING_FOR_CONFIRM" : "Ожидает подтверждения",
+        "COMPLETED"           : "Выполнен"
+    }
+}

@@ -1,0 +1,126 @@
+.shipment-list__item {
+    border-bottom: 1px solid rgb(224, 224, 224) !important;
+}
+
+.shipment-list__item_blue {
+    background-color: rgba(127, 221, 233, 0.4) !important;
+}
+
+.shipment-list__item_white {
+    background-color: rgba(224, 236, 238, 0.4) !important;
+}
+
+.shipment-list__item_hovered:hover {
+    background:rgb(245, 245, 245) !important
+}
+
+.shipment-list__header, .listItemWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.listItemWrapper{
+    padding: 10px;
+    background-color: rgba(0,0,0, 0.1);
+    margin: 10px;
+}
+
+.productNameBlock{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    width: calc(100% - 20px);
+}
+
+.productItemName{
+    margin-left: 20px;
+    width: 80%;
+}
+
+.btn button {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.removeItemIconStyle{
+    height: 30px !important;
+    width: 22px !important;
+}
+
+.modalBody-productsWraper{
+    border: 1px solid #a9a9a92e;
+    width: calc(100% - 40px);
+    position: relative;
+    margin: auto;
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modalBody-productsWraper::-webkit-scrollbar{
+    width: 3px;
+    border-radius: 2px;
+}
+
+.modalBody-productsWraper::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+.modalBody-productsWraper::-webkit-scrollbar-thumb{
+    width: 6px;
+    height: 26px;
+    border-radius: 2px;
+    background-color: rgba(56, 53, 53,  0.53);
+}
+
+.shipment-list__footer{
+    background-color: rgb(232, 232, 232);
+}
+
+.modalBody__div-image-wraper{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    min-width: 140px;
+}
+
+.modalBody__div-image{
+    position: relative;
+    text-align: center;
+    min-height: 120px;
+    margin-top: 5px;
+}
+
+.modalBody__image{
+    max-height: 140px;
+    max-width: 140px;
+    width: auto;
+    height: auto;
+}
+
+.shipment-list__title, .ShipmentTable__notFound {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.ShipmentTable__notFound{
+    padding: 20px 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.shipment-list-header-titles {
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(158, 158, 158);
+}
+
+@media screen and (max-height: 780px) {
+    .modalBody-productsWraper {
+        max-height: inherit;
+    }
+}

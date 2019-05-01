@@ -1,0 +1,39 @@
+{
+    "apiUrl": "http://213.108.129.235:8080/api/v1",
+    "defaultDriverPhoto" : "https://waterdelivery.s3.eu-central-1.amazonaws.com/images/27aa8173-12de-41c4-bca6-fbab56c514a4.png",
+    "defaultProductPhoto" : "https://waterdelivery.s3.eu-central-1.amazonaws.com/images/c90d3cb9-8a67-4425-ae11-0a66000c77a5.jpg",
+    "defaultRemovedImg"  : "https://waterdelivery.s3.eu-central-1.amazonaws.com//images/77393577-3da7-441a-8df4-1cd23b0c161b.png",
+    "defaultProviderPhoto" : "https://waterdelivery.s3.eu-central-1.amazonaws.com/images/ba76c678-3c60-41e1-9f3e-95904225df20.png",
+    "nominatimApiPrefix": "https://nominatim.openstreetmap.org",
+    "DataStudioKey": "1dwhB0Gt0brIIWVIwcVsvkARwvcNmyTIV/page/KO4U",
+    "userStatuses" : [
+        { "value": "ACTIVE", "status": "Active" },
+        { "value": "BLOCKED", "status": "Blocked" }
+    ],
+    "productTypes" : [
+        { "value": "BOTTLE", "label": "Тара" },
+        { "value": "BOTTLED_WATER", "label": "Вода с тарой" },
+        { "value": "WATER", "label": "Вода"},
+        { "value": "OTHER_PRODUCT", "label": "Товар"}
+    ],
+    "orderStatuses" : [
+        { "value": "IN_PROGRESS", "label": "В процессе" },
+        { "value": "CANCELLED", "label": "Закрыт" },
+        { "value": "PENDING", "label": "В ожидании" },
+        { "value": "COMPLETED", "label": "Выполнен" }
+    ],
+    "isAvailable" : [
+        { "value": true, "label": "Да" },
+        { "value": false, "label": "Нет" }
+    ],
+    "shipmentTypes" : [
+        { "name": "Менеджеру", "id" : "TOOK" },
+        { "name": "На склад", "id" :  "GAVE"}
+    ],
+    "adminCoins": 1000000000,
+    "MaxUploadSize": 5,
+    "SizeCoeficient": 1048576,
+    "retryLimit" : 4,
+    "retryInterval" : 1500,
+    "radius" : 50000
+}
